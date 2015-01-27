@@ -191,6 +191,7 @@ class TestWhisper(WhisperTestBase):
         self.assertEqual(whisper.aggregate('absmin', [-3, -2, 1, 2]), 1)
         # absmin with negative min
         self.assertEqual(whisper.aggregate('absmin', [-2, -1, 2, 3]), -1)
+
         with AssertRaisesException(whisper.InvalidAggregationMethod('Unrecognized aggregation method derp')):
             whisper.aggregate('derp', [12, 2, 3123, 1])
 
