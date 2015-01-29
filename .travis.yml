@@ -14,6 +14,7 @@ script:
   - bin/whisper-dump.py --help
   - bin/whisper-estimate.py --help
   - bin/whisper-fetch.py --help
+  - bin/whisper-fill.py --help
   - bin/whisper-info.py --help
   - bin/whisper-merge.py --help
   - bin/whisper-resize.py --help
